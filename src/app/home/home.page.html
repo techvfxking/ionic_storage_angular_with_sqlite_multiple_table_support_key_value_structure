@@ -14,7 +14,17 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-input label="Enter Value" placeholder="Enter any value" name="anyValue" [(ngModel)]="anyValue"/>
+    <ion-button (click)="saveValueTabl1()">Save</ion-button>
+
+    <ion-input label="Enter Value" placeholder="Enter any value" name="getVal" [(ngModel)]="getVal"/>
+    <ion-button (click)="getValue()">Get Value</ion-button>
+
+     <ion-input label="Enter Value2" placeholder="Enter any value2" name="anyValue2" [(ngModel)]="anyValue2"/>
+    <ion-button (click)="saveValueTabl2()">Save2</ion-button>
+
+    <ion-input label="Enter Value2" placeholder="Enter any value2" name="getVal2" [(ngModel)]="getVal2"/>
+    <ion-button (click)="getValue2()">Get Value2</ion-button>
+
   </div>
 </ion-content>
