@@ -1,0 +1,7 @@
+{
+  "name": "sqlite-with-ionic-storage-test-v1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
