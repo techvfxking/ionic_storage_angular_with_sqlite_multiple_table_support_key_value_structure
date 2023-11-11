@@ -28,6 +28,9 @@ export class HomePage implements OnInit {
     });
     await this.store2.defineDriver(CordovaSQLiteDriver);
     await this.store2.create();
+
+    const filePath = await this.storage.driver;
+
   }
 
   async saveValueTabl1() {
